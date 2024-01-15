@@ -1,0 +1,43 @@
+.warning {
+    background-color: #fff2cc;
+}
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+}
+.ant-layout-header {
+    padding: unset !important;
+}
+.logo {
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    /*background: rgba(255, 255, 255, 0.3);*/
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+.ant-table table { font-size: 11px; }
+.ant-table-tbody > tr > td {
+    padding: 6px !important;
+}
+.ant-table-thead > tr > th {
+    padding: 6px!important;
+}
+.ant-layout-content {
+    min-height: 100%;
+    overflow: scroll !important;
+    height: 715px;
+    background-color: white;
+}
+.ant-layout-footer {
+    clear: both;
+    position: absolute;
+    height: 64px;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    background: url('../images/bg_bot.jpeg') bottom;
+}
